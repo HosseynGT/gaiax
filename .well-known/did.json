@@ -1,0 +1,24 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:aigt.app",
+  "verificationMethod": [
+    {
+      "id": "did:web:aigt.app#JWK2020-RSA",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:aigt.app",
+      "publicKeyJwk": {
+        "kty": "RSA",
+        "n": "oD5vdapkfjnlAOTGau_yxsXN4v_CYC0B-XsVB8uSghQNUVTuQ0rXki2Acwa51qpkt8fWKE7woMDA8NzenBMDXNZvsLewL4edJM1xNpCxiWYE5E2tQJF6sELmqjaTehRoafajnqeEjs8GfNmag-Vj_XQk_aYVn1HCEo_JDriOdCkTSrSyiD1U48O70vN8VeCjHkf_REEMHSNLNgPRrhoc4akUoF6k7RLLo5buQK-WM2ulrTJxcO0IV5jn1LmFUiZ_3iH4tbZeq3FZPgaxG5cOAFduKF56ZacmoPlrLvSNAYZ_T9ytr1bcLy6oVsHvHm1HDR1T9ICcxDOkcTDjIvPHrQ",
+        "e": "AQAB",
+        "alg": "RS256",
+        "x5u": "https://aigt.app/.well-known/certificate.pem"
+      }
+    }
+  ],
+  "assertionMethod": [
+    "did:web:aigt.app#JWK2020-RSA"
+  ]
+}
